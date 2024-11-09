@@ -3,18 +3,18 @@ public class Main {
         System.out.println("Задание 1");
         var dog = 8;
         var cat = 3.6;
-        var parpel = 767789;
-        System.out.println("dog=" + dog + " Cat=" + cat + " parpel=" + parpel);
+        var paper = 767789;
+        System.out.println("dog=" + dog + " Cat=" + cat + " paper=" + paper);
 
         System.out.println("Задание 2");
         var Dog = (dog + 4);
         System.out.println("dog+4=" + Dog);
         var Cat = (cat + 4);
         System.out.println("cat+4=" + Cat);
-        var Parpel = (parpel + 4);
-        System.out.println("parpel+4=" + Parpel);
+        var Paper = (paper + 4);
+        System.out.println("paper+4=" + Paper);
 
-        System.out.println("dog+4=" + Dog + " cat+4=" + Cat + " parpel+4=" + Parpel);
+        System.out.println("dog+4=" + Dog + " cat+4=" + Cat + " paper+4=" + Paper);
 
 
     }
