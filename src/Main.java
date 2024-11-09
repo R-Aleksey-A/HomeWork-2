@@ -8,11 +8,11 @@ public class Main {
 
         System.out.println("Задание 2");
         var Dog = (dog + 4);
-        System.out.println("dog*4=" + Dog);
-        var Cat = (cat * 4);
-        System.out.println("cat*4=" + Cat);
-        var Parpel = (parpel * 4);
-        System.out.println("parpel*4=" + Parpel);
+        System.out.println("dog+4=" + Dog);
+        var Cat = (cat + 4);
+        System.out.println("cat+4=" + Cat);
+        var Parpel = (parpel + 4);
+        System.out.println("parpel+4=" + Parpel);
 
         System.out.println("dog+4=" + Dog + " cat+4=" + Cat + " parpel+4=" + Parpel);
 
