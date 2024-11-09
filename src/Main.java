@@ -7,14 +7,14 @@ public class Main {
         System.out.println("dog=" + dog + " Cat=" + cat + " paper=" + paper);
 
         System.out.println("Задание 2");
-        var Dog = (dog + 4);
-        System.out.println("dog+4=" + Dog);
-        var Cat = (cat + 4);
-        System.out.println("cat+4=" + Cat);
-        var Paper = (paper + 4);
-        System.out.println("paper+4=" + Paper);
+        var dog = (dog + 4);
+        System.out.println("dog+4=" + dog);
+        var cat = (cat + 4);
+        System.out.println("cat+4=" + cat);
+        var paper = (paper + 4);
+        System.out.println("paper+4=" + paper);
 
-        System.out.println("dog+4=" + Dog + " cat+4=" + Cat + " paper+4=" + Paper);
+        System.out.println("dog+4=" + dog + " cat+4=" + cat + " paper+4=" + paper);
 
 
     }
