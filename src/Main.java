@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello world!");
         var dog = 8;
         var cat = 3.6;
-        var parpel = 767789;
-        System.out.println("dog=" + dog + " Cat=" + cat + " parpel=" + parpel);
+        var paper = 767789;
+        System.out.println("dog=" + dog + " Cat=" + cat + " paper=" + paper);
     }
 }
