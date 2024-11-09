@@ -15,7 +15,7 @@ public class Main {
         System.out.println("paper+4=" + paper);
 
         System.out.println("dog+4=" + dogIncrease + " cat+4=" + catIncrease + " paper+4=" + paperIncrease);
-
+        System.out.println("Задание 3");
 
     }
 }
