@@ -66,8 +66,22 @@ public class Main {
         System.out.println("Вес боксера-1 по отношению к боксеру-2 = " + MassDiferenceBoxer2 + " %");
         var MassDiferenceBoxer3 = ((boxer2 / boxer1) % MassDiferenceBoxer) * 100;
         System.out.println("Вес боксера-2 по отношению к боксеру-1 = " + MassDiferenceBoxer3 + " % от веса ");
-        var MassDiferenceBoxer4 = MassDiferenceBoxer3-MassDiferenceBoxer2;
-        System.out.println("Разница в % между боксерами= "+MassDiferenceBoxer4+ " %");
+        var MassDiferenceBoxer4 = MassDiferenceBoxer3 - MassDiferenceBoxer2;
+        System.out.println("Разница в % между боксерами= " + MassDiferenceBoxer4 + " %");
+
+        System.out.println("Задание 8");
+        var LaberHours = 640;
+        var WorkingHours = 8;
+        System.out.println("Общее количество рабочего времени-" + LaberHours + " часов " + " Норма рабочего времени-" + WorkingHours + " часов");
+
+        var NumberEmployees = 640 / 8;
+        System.out.println("Всего работников в компании-" + NumberEmployees + " человек");
+        var IncreadePeple = 94;
+        System.out.println("Увелечение штата на- " + IncreadePeple + "человек");
+        var NumberEmployees1 = NumberEmployees + IncreadePeple;
+        var WorkingHoursEmployees = (LaberHours / (NumberEmployees + IncreadePeple));
+        System.out.println("Если в компании работает-" + NumberEmployees1 + " человека, то всего " + WorkingHoursEmployees + " часа составит время работы каждого сотрудника");
+
 
     }
 }
