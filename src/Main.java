@@ -42,13 +42,13 @@ public class Main {
 
         System.out.println("Задание 5");
         var frog = 3.5;
-        System.out.println("frog="+frog);
-        var Frog = frog*10;
-        System.out.println("frog*10="+Frog);
-        System.out.println("frog*10="+frog*10);
-        System.out.println("(frog*10)/3.5="+(frog*10)/3.5);
-        System.out.println("(frog*10)/3.5+4="+(((frog*10)/3.5)+4));
-        System.out.println("(frog*10)/3.5+4="+((Frog/3.5)+4));
+        System.out.println("frog=" + frog);
+        var Frog = frog * 10;
+        System.out.println("frog*10=" + Frog);
+        System.out.println("frog*10=" + frog * 10);
+        System.out.println("(frog*10)/3.5=" + (frog * 10) / 3.5);
+        System.out.println("(frog*10)/3.5+4=" + (((frog * 10) / 3.5) + 4));
+        System.out.println("(frog*10)/3.5+4=" + ((Frog / 3.5) + 4));
 
     }
 }
