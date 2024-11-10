@@ -50,5 +50,22 @@ public class Main {
         System.out.println("(frog*10)/3.5+4=" + (((frog * 10) / 3.5) + 4));
         System.out.println("(frog*10)/3.5+4=" + ((Frog / 3.5) + 4));
 
+        System.out.println("Задание 6");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var TotalWeight = boxer1 + boxer2;
+        System.out.println("Вес боксера-1=" + boxer1 + "кг" + " Вес боксера-2=" + boxer2 + "кг");
+        System.out.println("Общий вес боксеров=" + TotalWeight + "кг");
+        var MassDiferenceBoxer = boxer1 - boxer2;
+        System.out.println("Разница веса боксеров=" + MassDiferenceBoxer + "кг");
+        var MassDiferenceBoxer1 = boxer2 % boxer1;
+        System.out.println("Разница веса боксеров=" + MassDiferenceBoxer1 + "кг");
+        var MassDiferenceBoxer2 = ((boxer1 / boxer2) % MassDiferenceBoxer) * 100;
+        System.out.println("Вес боксера-1 по отношению к боксеру-2 = " + MassDiferenceBoxer2 + " %");
+        var MassDiferenceBoxer3 = ((boxer2 / boxer1) % MassDiferenceBoxer) * 100;
+        System.out.println("Вес боксера-2 по отношению к боксеру-1 = " + MassDiferenceBoxer3 + " % от веса ");
+        var MassDiferenceBoxer4 = MassDiferenceBoxer3-MassDiferenceBoxer2;
+        System.out.println("Разница в % между боксерами= "+MassDiferenceBoxer4+ " %");
+
     }
 }
