@@ -65,7 +65,7 @@ public class Main {
         var MassDiferenceBoxer3 = ((boxer2 / boxer1) % MassDiferenceBoxer) * 100;
         System.out.println("Вес боксера-2 по отношению к боксеру-1 = " + MassDiferenceBoxer3 + " % от веса ");
         var MassDiferenceBoxer4 = MassDiferenceBoxer3-MassDiferenceBoxer2;
-        System.out.println("Разница в % между боксерами= "+MassDiferenceBoxer4+ "  %");
+        System.out.println("Разница в % между боксерами= "+MassDiferenceBoxer4+ " %");
 
     }
 }
