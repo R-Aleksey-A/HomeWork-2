@@ -32,5 +32,13 @@ public class Main {
         var Cat = ((cat + 4) - 1.6);
         var Paper = ((paper + 4) - 7639);
         System.out.println("(dog+4)-3.5=" + Dog + " (cat+4)-1.6="+Cat+ "(paper+4)-7639="+Paper);
+
+        System.out.println("Задание 4");
+        var friend=19;
+        System.out.println("friend="+friend);
+        System.out.println("friend*2="+friend*2);
+        System.out.println("friend/7="+friend/7);
+        System.out.println("(friend*2)/7="+(friend*2)/7);
+
     }
 }
