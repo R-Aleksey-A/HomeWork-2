@@ -58,6 +58,8 @@ public class Main {
         System.out.println("Общий вес боксеров=" + TotalWeight + "кг");
         var MassDiferenceBoxer = boxer1 - boxer2;
         System.out.println("Разница веса боксеров=" + MassDiferenceBoxer + "кг");
+
+        System.out.println("Задание 7");
         var MassDiferenceBoxer1 = boxer2 % boxer1;
         System.out.println("Разница веса боксеров=" + MassDiferenceBoxer1 + "кг");
         var MassDiferenceBoxer2 = ((boxer1 / boxer2) % MassDiferenceBoxer) * 100;
