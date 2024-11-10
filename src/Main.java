@@ -58,14 +58,7 @@ public class Main {
         System.out.println("Общий вес боксеров=" + TotalWeight + "кг");
         var MassDiferenceBoxer = boxer1 - boxer2;
         System.out.println("Разница веса боксеров=" + MassDiferenceBoxer + "кг");
-        var MassDiferenceBoxer1 = boxer2 % boxer1;
-        System.out.println("Разница веса боксеров=" + MassDiferenceBoxer1 + "кг");
-        var MassDiferenceBoxer2 = ((boxer1 / boxer2) % MassDiferenceBoxer) * 100;
-        System.out.println("Вес боксера-1 по отношению к боксеру-2 = " + MassDiferenceBoxer2 + " %");
-        var MassDiferenceBoxer3 = ((boxer2 / boxer1) % MassDiferenceBoxer) * 100;
-        System.out.println("Вес боксера-2 по отношению к боксеру-1 = " + MassDiferenceBoxer3 + " % от веса ");
-        var MassDiferenceBoxer4 = MassDiferenceBoxer3-MassDiferenceBoxer2;
-        System.out.println("Разница в % между боксерами= "+MassDiferenceBoxer4+ "  %");
+
 
     }
 }
